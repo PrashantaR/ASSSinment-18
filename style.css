@@ -270,16 +270,16 @@ h1.class {
     margin-bottom: 112px;
     padding: 9px 0px;
 }
-.bachground p{
+.bachground p {
     background: #fff;
-
+    box-shadow: -1px 0px 15px;
 }
 .Background1{
     border: 1px solid ;
 }
 
 .left img{
-    border: 2px solid #af9b2d;
+   
 }
 .p{
     padding: 10px 0;
@@ -292,9 +292,9 @@ h1.class {
 
 
 
-.ABC{
-  
-    padding: 5px 73px; 
+.ABC {
+    padding: 11px 281px 11px 3px;
+    margin-left: 20px;
 }
 
 /* contuct */
@@ -306,26 +306,30 @@ h1.class {
 
 /* form */
 .a {
-    padding: 14px 187px;
+    padding: 13px 360px 13px 10px;
     border-radius: 10px;
     border: 1px solid #aa972c;
+    font-weight: 600;
 }
 .b {
-    padding: 14px 47px;
+    padding: 14px 82px 14px 5px;
     margin-left: -2px;
     border-radius: 10px;
     border: 1px solid #aa972c;
+    font-weight: 500;
 }
-.c{
-    padding: 14px 45px;
+.c {
+    padding: 14px 79px 14px 5px;
     margin-right: -3px;
     border-radius: 10px;
     border: 1px solid #aa972c;
+    font-weight: 500;
 }
 .d {
-    padding: 65px 198px;
+    padding: 7px 381px 82px 6px;
     border-radius: 10px;
     border: 1px solid #aa972c;
+    font-weight: 500;
 }
 .teext b {
     font-weight: 700;
@@ -346,4 +350,17 @@ h1.class {
 }
 .sub a:hover{
    background: pink;
+}
+
+
+.FeedBack h6 {
+    text-align: center;
+    font-size: 22px;
+}
+.FeedBack-text h2 {
+    text-align: center;
+    margin-bottom: 112px;
+    padding: 16px -1px;
+    margin-bottom: 20px;
+    text-align: center;
 }
