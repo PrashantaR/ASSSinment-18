@@ -64,6 +64,19 @@ clear: both;
     background-repeat: no-repeat;
     padding: 150px 0;
     color: #949494;
+    position: relative;
+    z-index: 1;
+}
+.Banner-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.507);
+    z-index: -1;
+
 }
 .menu ul{
 
